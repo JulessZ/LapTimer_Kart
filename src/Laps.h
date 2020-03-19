@@ -1,7 +1,34 @@
 #ifndef Laps_H
 
-int Lap_Numbers;
-long Best_Lap;
+
+class Laps
+{
+private:
+    String Calc_LapTime(long Start_Time, long End_Time);
+public:
+    Laps(/* args */);
+    ~Laps();
+    long Start_Time;
+    long End_Time;
+    long Lap_Time;
+
+
+    //Functions
+    void Start_Time();
+
+};
+
+Laps::Laps(/* args */)
+{
+}
+
+Laps::~Laps()
+{
+}
+
+
+
+
 
 
 
