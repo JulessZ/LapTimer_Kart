@@ -1,9 +1,10 @@
 #ifndef Display_H
+#define Display_H
 
 
 class Display{
 private:
-    /* data */
+    int end = 0xff;
 public:
     Display(/* args */);
     ~Display();
@@ -14,12 +15,5 @@ public:
 
 
 };
-
-Display::Display(/* args */){
-}
-
-Display::~Display(){
-}
-
 
 #endif
